@@ -1,0 +1,6 @@
+model:
+  name: omnigen2
+  type: omnigen2
+  hf_model_id: OmniGen2/OmniGen2  # Hugging Face model
+  device: cuda
+  precision: bf16

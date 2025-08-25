@@ -1,0 +1,28 @@
+# Core deep learning
+torch>=2.2.0
+torchvision>=0.17.0
+
+# HuggingFace ecosystem
+transformers>=4.41.0
+diffusers>=0.29.0
+accelerate>=0.30.0
+safetensors>=0.4.3
+
+# LoRA / adapters
+peft>=0.11.0
+
+# Datasets & file formats
+datasets>=2.19.0
+pyarrow>=16.0.0
+pillow>=10.3.0
+
+# Config & utilities
+pyyaml>=6.0.1
+tqdm>=4.66.2
+
+# Optional optimizations (install only if your GPU supports)
+xformers>=0.0.25
+flash-attn>=2.5.8.post1
+
+# OmniGen2 repo (local or submodule)
+-e ./third_party/OmniGen2

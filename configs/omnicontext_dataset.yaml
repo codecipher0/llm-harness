@@ -1,0 +1,8 @@
+dataset:
+  name: omnicontext
+  source: huggingface
+  huggingface_id: OmniGen2/OmniContext
+  split: train
+  image_column: input_images
+  instruction_column: instruction
+  key_column: key
