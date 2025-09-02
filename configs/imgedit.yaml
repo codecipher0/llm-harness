@@ -1,0 +1,8 @@
+dataset:
+  name: imgedit
+  source: huggingface
+  huggingface_id: sysuyy/ImgEdit
+  split: train
+  image_column: image
+  instruction_column: instruction
+  key_column: id
